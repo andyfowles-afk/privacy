@@ -709,6 +709,65 @@ img{
     flex-shrink:0;
 
 }
+
+/*==========================================================
+FEATURED APPLICATION BOTTOM ROW
+==========================================================*/
+
+.featured-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:3rem;
+
+    margin-top:2.5rem;
+
+}
+
+.featured-bottom .language-buttons{
+
+    flex:1;
+
+    margin-top:0;
+
+}
+
+.featured-bottom .product-preview{
+
+    margin-top:0;
+
+    flex-shrink:0;
+
+}
+
+.featured-bottom .phone{
+
+    width:190px;
+
+}
+
+@media (max-width:900px){
+
+    .featured-bottom{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .featured-bottom .phone{
+
+        width:180px;
+
+    }
+
+}
+
 /* ==========================================================
    PHONE PREVIEW
 ========================================================== */

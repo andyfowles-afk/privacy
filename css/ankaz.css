@@ -715,11 +715,13 @@ img{
 
     align-items:center;
 
+    margin-top:2.5rem;
+
 }
 
 .phone{
 
-    width:240px;
+    width:200px;
 
     padding:12px;
 
@@ -746,6 +748,12 @@ img{
     width:100%;
 
     border-radius:26px;
+
+}
+
+.phone{
+
+    margin-inline:auto;
 
 }
 

@@ -654,6 +654,12 @@ img{
 
 }
 
+.language-buttons{
+
+    margin-top:2rem;
+
+}
+
 .featured-features{
 
     list-style:none;
@@ -910,6 +916,8 @@ img{
     gap:2rem;
 
     margin-top:3rem;
+
+    margin-bottom:3rem;
 
 }
 

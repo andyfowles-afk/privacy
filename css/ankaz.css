@@ -196,6 +196,10 @@ strong{
 
 }
 
+.hero-copy .eyebrow{
+    margin-left:-16px;
+}
+
 .eyebrow{
 
     display:inline-block;

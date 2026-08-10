@@ -287,13 +287,9 @@ strong{
 
     padding:64px 0 56px;
 
-    text-align:center;
-
 }
 
 .hero-small .hero-logo{
-
-    justify-content:center;
 
     margin-bottom:24px;
 
@@ -302,16 +298,6 @@ strong{
 .hero-small .hero-copy{
 
     max-width:640px;
-
-    margin:0 auto;
-
-}
-
-.hero-small .hero-lead{
-
-    margin-left:auto;
-
-    margin-right:auto;
 
 }
 

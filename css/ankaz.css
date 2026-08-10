@@ -188,39 +188,11 @@ strong{
     max-width:620px;
 }
 
-.hero-logo{
+.hero-copy .ankaz-logo{
 
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
+    justify-content:flex-start;
 
     margin-bottom:26px;
-
-}
-
-.hero-logo img{
-
-    width:72px;
-
-    height:72px;
-
-    border-radius:18px;
-
-    box-shadow:
-
-        0 12px 28px rgba(0,0,0,.15);
-
-}
-
-.app-name{
-
-    font-size:1.6rem;
-
-    font-weight:700;
-
-    color:var(--primary);
 
 }
 
@@ -320,10 +292,6 @@ strong{
 
         margin:auto;
 
-    }.hero-logo{
-
-        justify-content:center;
-
     }.hero-lead{
 
         margin-left:auto;
@@ -336,27 +304,11 @@ strong{
 
         padding:70px 0;
 
-    }.hero-logo img{
-
-        width:60px;
-
-        height:60px;
-
-    }.app-name{
-
-        font-size:1.35rem;
-
     }}
 
 @media (max-width:900px){.hero{
 
         padding:40px 0 64px;
-
-    }.hero-logo img{
-
-        width:88px;
-
-        height:88px;
 
     }.hero-lead{
 

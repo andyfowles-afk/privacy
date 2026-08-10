@@ -683,6 +683,10 @@ h1, h2, h3{
     align-items:center;
 }
 
+.product-copy .eyebrow{
+    margin-left:-16px;
+}
+
 .product-copy h2{
     margin-bottom:1rem;
 }

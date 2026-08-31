@@ -613,27 +613,19 @@ h1, h2, h3{
     margin-bottom:1.5rem;
 }
 
-.product-preview{
+.language-showcase{
     display:flex;
-    justify-content:center;
-}
-
-.featured-grid{
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap:2.5rem;
     margin-top:2rem;
 }
 
-.featured-content{
+.language-pair{
     display:flex;
     flex-direction:column;
-    gap:2rem;
-}
-
-.featured-bottom{
-    display:flex;
-    flex-wrap:wrap;
     align-items:center;
-    justify-content:space-between;
-    gap:2rem;
+    gap:1.25rem;
 }
 
 @media (max-width:900px){.product-grid{
@@ -641,6 +633,8 @@ h1, h2, h3{
     gap:3rem;
 }.product-copy{
     text-align:center;
+}.language-showcase{
+    justify-content:center;
 }}
 
 .company-values{
@@ -741,17 +735,27 @@ h1, h2, h3{
 
 }
 
-.language-buttons{
+.language-pair .language-button{
 
-    display:flex;
+    width:100%;
 
-    justify-content:center;
+    margin-top:0;
 
-    gap:1.5rem;
+}
 
-    flex-wrap:wrap;
+.language-pair .phone{
 
-    margin-top:2.5rem;
+    width:150px;
+
+    padding:8px;
+
+    border-radius:26px;
+
+}
+
+.language-pair .phone img{
+
+    border-radius:18px;
 
 }
 
@@ -821,13 +825,13 @@ h1, h2, h3{
 
 }
 
-@media (max-width:768px){.language-buttons{
+@media (max-width:768px){.language-showcase{
 
         flex-direction:column;
 
         align-items:center;
 
-    }.language-button{
+    }.language-pair .language-button{
 
         width:100%;
 
